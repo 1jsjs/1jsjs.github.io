@@ -18,7 +18,7 @@ nav { margin:20px 0 8px; display:flex; gap:16px; }
 a { color:var(--accent); }
 section { border-top:1px solid var(--line); margin-top:32px; padding-top:8px; }
 .table { overflow-x:auto; }
-table { border-collapse:collapse; width:100%; font-size:14px; margin:8px 0; }
+table { border-collapse:collapse; width:100%; min-width:640px; font-size:14px; margin:8px 0; }
 th, td { border:1px solid var(--line); padding:8px; text-align:left; vertical-align:top; }
 th { color:var(--muted); font-weight:600; }
 code { font-size:13px; }
@@ -38,7 +38,6 @@ footer { color:var(--muted); font-size:13px; margin-top:48px; }
 <h2>2. 기기 안에만 있는 정보 (운영자가 받지 않음)</h2>
 <ul><li>집중 기록: 영화 제목, 활동, 좌석·극장·상영관(티켓에서 읽은 경우), 시작·종료 시각, 감상 메모, 찢은 티켓 모양.</li><li>포스터에 넣은 내 사진: 사진 보관함에서 고른 사진을 망점 이미지로 바꿔 기록 안에 저장합니다. 원본은 앱이 따로 보관하지 않습니다.</li><li>공유로 받은 티켓 이미지: 앱과 공유 확장이 같이 쓰는 기기 안 폴더에 잠깐 두었다가, 앱이 열리면 읽고 지웁니다.</li><li>스크린 타임(앱 차단): 사용자가 고른 앱 목록은 Apple이 주는 암호화된 표식으로만 저장되며, 앱은 어떤 앱인지 알 수 없습니다. 사용 시간 등 스크린 타임 데이터는 기기 밖으로 보내지 않습니다.</li><li>잠금 화면·다이내믹 아일랜드(Live Activity), 위젯: 기기 안에서만 표시하며 푸시 서버를 쓰지 않습니다.</li><li>설정 값(소리, 화면 켜두기 등).</li></ul>
 <p>이 정보는 아이폰의 iCloud 백업을 켠 경우 Apple의 백업에 포함될 수 있습니다. 이는 Apple과 사용자 사이의 일이며 운영자는 볼 수 없습니다.</p>
-<p><strong>구독 결제(ReelTime Pro):</strong> 구독의 결제·갱신·해지·환불은 Apple이 사용자의 Apple 계정으로 처리합니다. 운영자는 카드·결제 정보를 받지 않으며, 앱은 Apple이 기기에서 확인해 주는 구독 상태(구독 여부, 상품, 갱신·만료일)만 확인해 기기 안에 저장합니다. 구독은 아이폰 설정 › Apple 계정 › 구독에서 관리하거나 해지할 수 있습니다.</p>
 <h2>3. 쓰지 않는 것</h2>
 <p>광고, 분석·추적 도구(SDK), 다른 앱·웹사이트와의 추적(App Tracking Transparency 대상 행위), 위치 정보, 연락처, 정보 판매는 쓰지 않거나 하지 않습니다.</p>
 <h2>4. 처리 위탁 및 국외 이전</h2>
@@ -67,7 +66,6 @@ footer { color:var(--muted); font-size:13px; margin-top:48px; }
 <h2>2. What stays on your device (we never receive it)</h2>
 <ul><li>Your sessions: film title, activity, seat, cinema and screen (when read from a ticket), start and end times, notes, and the shape of your torn ticket.</li><li>A photo you add to a poster: the photo you pick is turned into a halftone image and kept with that session. The app does not keep the original.</li><li>A ticket image shared to the app: held briefly in a folder on your device shared by the app and its share extension, then read and deleted when the app opens.</li><li>Screen Time (app blocking): the apps you choose are stored only as encrypted tokens from Apple; the app cannot tell which apps they are. No Screen Time or usage data leaves your device.</li><li>Live Activities and widgets are shown on your device only; no push server is used.</li><li>Your settings (sound, keep screen on, and so on).</li></ul>
 <p>If iCloud Backup is on, this data may be included in your Apple backup, which we cannot see.</p>
-<p><strong>Subscription payments (ReelTime Pro):</strong> Apple handles payment, renewal, cancellation and refunds through your Apple Account. We never receive card or payment details. The app only checks the subscription status Apple confirms on your device (whether you subscribe, the plan, and its renewal or end date) and keeps it on your device. Manage or cancel it in Settings › Apple Account › Subscriptions on your iPhone.</p>
 <h2>3. What we do not use</h2>
 <p>No ads, no analytics or tracking SDKs, no tracking across other companies' apps or websites, no location, no contacts, and we never sell data.</p>
 <h2>4. Service providers and international transfers</h2>
